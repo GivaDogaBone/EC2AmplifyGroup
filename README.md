@@ -16,7 +16,7 @@ Regularly audit and review permissions usage
 
 ## To use this Terraform code:
 
-1.) Save the code to a file named main.tf
-2.) Initialize Terraform with terraform init
-3.) Preview the changes with terraform plan
-4.) Apply the configuration with terraform apply
+1.) Save the code to a file named main.tf<br/> 
+2.) Initialize Terraform with terraform init<br/> 
+3.) Preview the changes with terraform plan<br/> 
+4.) Apply the configuration with terraform apply<br/> 
