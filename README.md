@@ -1,7 +1,7 @@
 # EC2AmplifyGroup
 Separates EC2 and Amplify permissions
 
-This improved policy:
+## This improved policy:
 
 Separates EC2 and Amplify permissions into distinct statement blocks for better organization and management
 Adds essential Amplify branch and deployment permissions that administrators would likely need
@@ -13,3 +13,10 @@ Further restrict resources by specifying ARNs instead of using "*" where possibl
 Consider creating separate policies for read-only vs. write operations
 Implement additional guardrails like requiring MFA for sensitive operations
 Regularly audit and review permissions usage
+
+## To use this Terraform code:
+
+1.) Save the code to a file named main.tf
+2.) Initialize Terraform with terraform init
+3.) Preview the changes with terraform plan
+4.) Apply the configuration with terraform apply
